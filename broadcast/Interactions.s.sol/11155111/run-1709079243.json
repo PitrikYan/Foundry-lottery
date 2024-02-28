@@ -1,0 +1,39 @@
+{
+  "transactions": [
+    {
+      "hash": "0xf011becd697fb4bfc23b612bb3c656b58d75942bcda2cd204bdcbc052bc02305",
+      "transactionType": "CALL",
+      "contractName": "VRFCoordinatorV2",
+      "contractAddress": "0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625",
+      "function": "createSubscription()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x96f0c8933e969aa5777c160ab68342b69dfa9aa4",
+        "to": "0x8103b0a8a00be2ddc778e6e7eaa21791cd364625",
+        "gas": "0x1558c",
+        "value": "0x0",
+        "data": "0xa21a23e4",
+        "nonce": "0x4b",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xf011becd697fb4bfc23b612bb3c656b58d75942bcda2cd204bdcbc052bc02305"
+  ],
+  "returns": {
+    "0": {
+      "internal_type": "uint64",
+      "value": "9708"
+    }
+  },
+  "timestamp": 1709079243,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "b660b33"
+}
